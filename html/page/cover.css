@@ -144,6 +144,11 @@ body {
   max-width: 65%;
 }
 
+.not-active {
+ pointer-events: none;
+ cursor: default;
+ opacity: 0.7;
+}
 
 /*
  * Affix and center
